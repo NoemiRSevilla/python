@@ -1,0 +1,288 @@
+*{
+outline: 0;
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+#wrapper{
+	height: 800px;
+	max-width: 970px;
+	margin-left: 100px;
+	background-color: rgb(38,81,117);
+	display: inline-block;
+}
+
+#top1 img{
+	height: 100px;
+	width: 360px;
+	display: inline-block;
+	margin-top: -70px;
+	margin-left: 20px;
+}
+
+#top1 p{
+	display: inline-block;
+	color: white;
+	vertical-align: top;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 100;
+	margin-left: 730px;
+	height: 13px;
+	width: 150px;
+}
+
+#top1 span{
+	display: inline-block;
+	color: rgb(209,176,2);
+	text-decoration: underline;
+}
+
+.textsize{
+	display: inline-block;
+	height: 62px;
+	width: 250px;
+	margin-left: 645px;
+	background-color: rgb(68,68,68);
+	border-radius: 10px;
+	border-bottom: solid black 2px;
+	border-right: solid black 2px;
+}
+
+#Search{
+	display: inline-block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	height: 17px;
+	width: 150px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 35px;
+	margin-right: 2px;
+	color: rgb(176,176,176);
+	border-top: solid rgb(153,153,153) 2px;
+	border-left: solid rgb(153,153,153) 2px;
+}
+
+#GO{
+	background-color: rgb(38,81,117);	
+	padding: 5px;
+	color: white;
+	height: 25px;
+	width: 30px;
+	border-top: solid rgb(179,181,183) 1px;
+	border-left: solid rgb(179,181,183) 1px;
+	border-bottom: solid rgb(109,109,109) 1px;
+	border-right: solid rgb(109,109,109) 1px;
+}
+
+#navigation{
+ 	display: inline-block;
+ 	background-color: rgb(74,128,171);
+ 	margin-left: 100px;
+ 	font-size: 20px;
+ 	font-family: sans-serif;
+ 	font-weight: 100;
+ 	color: white;
+ 	padding-left: 30px;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	border-radius: 5px;
+ 	border-bottom: solid black 2px;
+ 	border-right: solid black 2px;
+}
+
+#navigation li{
+	list-style: none;
+	display: inline;
+	margin-right: 30px;
+}
+
+#middletext ul{
+	margin-top: 30px;
+	display: inline-block;
+}
+
+#middletext{
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+}
+
+#middletext li {
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	list-style-type: none;
+	text-align: center;
+	margin-bottom: 7px;
+	margin-left: 120px;
+	font-weight: 300;
+}
+
+#body-contents{
+
+}
+
+#middletext li:before {
+	content: "\00BB \0020";
+	color: yellow;
+}
+
+.Year1991 {
+	font-family: sans-serif;
+	display: inline-block;
+	font-size: 14px;
+	height: 90px;
+	width: 515px;
+	color: white;
+	vertical-align: top;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.poem {
+	height: 150px;
+	width: 400px;
+	margin-left: 380px;
+	margin-top: -90px;
+}
+
+.poem strong{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	color: rgb(209,176,2);
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
+	font-style: italic;
+
+}
+
+.poem span{
+	color: white;
+	display: block;
+	text-align: center;
+}
+
+#whitepage{
+	height: 200px;
+	width: 970px;
+	background-color: white;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.getting_started{
+	display: inline-block;
+	height: 200px;
+	width: 400px;
+	vertical-align: top;
+	margin-right: 25px;
+	margin-left: 25px;
+	border-top: solid rgb(117,168,211) 4px;
+	margin-top: 10px;
+	list-style-position: inside;
+	font-family: sans-serif;
+	padding-top: 8px;
+	text-align: center;
+}
+
+.getting_started strong{
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.getting_started p{
+	font-size: 13px;
+	width: 280px;
+	margin-left: 70px;
+	margin-top: 5px;
+}
+
+.leftlist {
+	margin-left: 90px;
+	font-size: 13px;
+	color: rgb(117,168,211);
+	width: 240px;
+	text-align: left;
+	list-style-type: none;
+}
+
+.applications{
+	display: inline-block;
+	color: black;
+	height: 200px;
+	width: 400px;
+	border-top: solid rgb(117,168,211) 4px;
+	margin-top: 10px;
+	font-family: sans-serif;
+	list-style-position: inside;
+	padding-top: 8px;
+}
+
+.applications strong{
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.applications p{
+	font-size: 13px;
+	width: 280px;
+	margin-left: 70px;
+	margin-top: 5px;
+	font-family: sans-serif;
+}
+
+.applications span{
+	color: rgb(117,168,211);
+	font-size: 11px;
+	vertical-align: middle;
+}
+
+.rightlist{
+	font-size: 13px;
+	color: rgb(117,168,211);
+	text-align: left;
+	margin-left: 70px;
+	list-style-type: none;
+}
+
+.getting_started li:before {
+	content: "\25A0";
+	color: black;
+	margin-right: 15px;
+}
+
+#whitepage li:before {
+	content: "\25A0";
+	color: black;
+	margin-right: 15px;
+}
+
+.bottomnavigation{
+	display: block;
+	margin-top: 50px;
+	margin-left: 200px;
+	font-family: sans-serif;
+}
+
+.bottomnavigation strong{
+	font-size: 16px;
+	font-weight: 100;
+	color: rgb(137,186,227);
+	margin-right: 40px;
+}
+
+.bottomnavigation small{
+	font-size: 10px;
+	color: rgb(137,186,227);
+	display: block;
+	font-weight: 100;
+	margin-left: 250px;
+	margin-top: 20px;
+}
